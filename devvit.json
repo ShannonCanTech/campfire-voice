@@ -16,6 +16,14 @@
   "media": {
     "dir": "assets"
   },
+  "redis": true,
+  "realtime": true,
+  "reddit": {
+    "asUser": [
+      "SUBMIT_POST",
+      "SUBMIT_COMMENT"
+    ]
+  },
   "menu": {
     "items": [
       {
@@ -29,5 +37,8 @@
   },
   "triggers": {
     "onAppInstall": "/internal/on-app-install"
+  },
+  "dev": {
+    "subreddit": "campfire_voice_3_dev"
   }
 }
